@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="format-detection" content="telephone=no">
+  <title>Стайл Дент — стоматология в Новороссийске на Московской, 3</title>
+  <meta name="description" content="Стоматология «Стайл Дент» в Новороссийске (Московская ул., 3): лечение зубов, имплантация Osstem, коронки и протезирование, удаление, гигиена, гнатология. Консультация — 500 ₽. Рейтинг 4,7 на Яндекс Картах.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+  <link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js" crossorigin>
+  <link rel="modulepreload" href="opal3d-shapes.js">
+</head>
+<body class="theme-brand">
+
+<!-- ============ Шапка ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="Стайл Дент — на главную">
+      <svg class="logo__mark logo__mark--sd" viewBox="0 0 64 48" aria-hidden="true"><path d="M22 31C17.5 24 16 14.5 20.5 9.5c3.8-4.2 8.6-3 11.5-.6 2.9-2.4 7.7-3.6 11.5.6 4.5 5 3 14.5-1.5 21.5" fill="none" stroke="#5b3a9a" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 34.5c9-9.5 35-13 58-7.2-19.5-2.6-41.5-.6-53 9.6Z" fill="#4ea62e"/><path d="M9 41.5c15 5.5 38 3.6 50-7.4-10.5 11.6-35.5 15-50 7.4Z" fill="#5b3a9a"/></svg>
+      <span class="logo__text logo__text--sd"><span class="logo__word">Style <em>Dent</em></span><small>стоматология</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#clinic">Клиника</a>
+      <a href="#doctors">Врачи</a>
+      <a href="#reviews">Отзывы</a>
+    </nav>
+    <div class="header__right">
+      <a href="tel:+79002620708" class="header__phone">+7 (900) 262-07-08</a>
+      <a href="#booking" class="btn btn--blue btn--sm">Записаться</a>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ Hero ============ -->
+  <section class="hero container">
+    <div class="hero__left">
+      <h1 class="hero__title reveal">
+        <span class="hero__pill" aria-hidden="true"></span>Здоровые<br>
+        <span class="nowrap">улыбки <a href="#visit" class="btn-outline"><svg width="10" height="11" viewBox="0 0 10 11"><path d="M1.5 1.3v8.4L8.6 5.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>Как проходит приём</a></span><br>
+        в надёжных руках
+      </h1>
+      <p class="hero__lead reveal">«Стайл Дент» — современная стоматология с вниманием к деталям в Новороссийске на Московской, 3: лечение, импланты, коронки, удаление, гигиена и гнатология.</p>
+      <div class="hero__actions reveal">
+        <a href="#booking" class="btn btn--blue btn--lg">Записаться на приём <i class="arr"></i></a>
+        <a href="tel:+79002620708" class="btn btn--ghost btn--lg">
+          <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          Позвонить
+        </a>
+        <a href="#visit" class="hero__how"><svg width="10" height="11" viewBox="0 0 10 11" aria-hidden="true"><path d="M1.5 1.3v8.4L8.6 5.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>Как проходит приём</a>
+      </div>
+      <div class="hero__bottom reveal">
+        <a class="hero__rating" href="https://yandex.ru/maps/org/stayl_dent/56596420801/reviews/" target="_blank" rel="noopener">
+          <span class="hero__avatars" aria-hidden="true"><i style="--c1:#d9cdf3;--c2:#5b3a9a">Т</i><i style="--c1:#c8ebb8;--c2:#4ea62e">Е</i><i style="--c1:#f7b2c9;--c2:#e27fa4">А</i></span>
+          <span class="hero__rating-text"><b>4,7 <span class="hero__stars">★★★★★</span></b><span>44 оценки на Яндекс Картах</span></span>
+        </a>
+        <ul class="hero__features">
+          <li>Без боли</li><li>Импланты Osstem</li><li>Детский уголок</li><li>Гнатология</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero__right">
+      <a href="#booking" class="card card--hero-main reveal">
+        <h2 class="card__title-lg">Консультация<br>стоматолога —<br>500 ₽</h2>
+        <div class="obj3d obj3d--hero-tooth" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+        <p class="card__note">Врач подробно расскажет обо всех нюансах и предложит решения — в том числе более бюджетные.</p>
+        <span class="circle-btn circle-btn--lg"><i class="arr"></i></span>
+      </a>
+      <a href="#services" class="card card--hero-blue reveal">
+        <span class="chip">импланты</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d obj3d--bubble" data-shape="implant"><img data-src="img/o_implant.webp" alt="" decoding="async"></div>
+        <div class="card__bottom">
+          <h3 class="card__title-md">Имплант Osstem<br>30 000 ₽</h3>
+          <p class="card__text">Южнокорейские импланты, коронки на имплантах и съёмное протезирование.</p>
+        </div>
+      </a>
+      <a href="#reviews" class="card card--hero-green reveal">
+        <span class="chip">Яндекс Карты</span>
+        <div class="card__bottom">
+          <div class="counter">4,7</div>
+          <p class="card__text">Рейтинг по 44 оценкам и 29 отзывам пациентов.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ Услуги (цены — прайс клиники на Яндекс Картах) ============ -->
+  <section class="section container" id="services">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Услуги</span>
+        <h2 class="h2 reveal">Шесть направлений,<br><span class="muted">одна клиника</span></h2>
+      </div>
+      <p class="lead reveal">А ещё гнатология — помощь при проблемах ВНЧС: осмотр гнатолога, сплинт-терапия и защитные каппы.</p>
+    </div>
+
+    <div class="services">
+      <article class="service service--1 reveal">
+        <span class="service__num">01</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="implant"><img data-src="img/o_implant.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Имплантация</h3>
+          <p class="service__text">Южнокорейские импланты Osstem, коронки и протезы на имплантах.</p>
+        </div>
+        <div class="price"><b>30 000 ₽</b><span>имплант Osstem</span></div>
+      </article>
+
+      <article class="service service--2 reveal">
+        <span class="service__num">02</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Удаление зубов</h3>
+          <p class="service__text">Простое, сложное и удаление ретенированных зубов — безболезненно.</p>
+        </div>
+        <div class="price"><b>от 3 000 ₽</b><span>удаление</span></div>
+      </article>
+
+      <article class="service service--3 reveal">
+        <span class="service__num">03</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="veneer"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Коронки и протезы</h3>
+          <p class="service__text">Металлокерамика, цирконий, E-max, съёмное протезирование.</p>
+        </div>
+        <div class="price"><b>от 12 000 ₽</b><span>коронка</span></div>
+      </article>
+
+      <article class="service service--4 reveal">
+        <span class="service__num">04</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="star"><img data-src="img/o_star.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Виниры и реставрация</h3>
+          <p class="service__text">Художественная реставрация зуба<br>и виниры E-max.</p>
+        </div>
+        <div class="price"><b>6 500 ₽</b><span>реставрация</span></div>
+      </article>
+
+      <article class="service service--5 reveal">
+        <span class="service__num">05</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="lens"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Лечение зубов</h3>
+          <p class="service__text">Кариес и эндодонтическое лечение каналов — для взрослых и детей.</p>
+        </div>
+        <div class="price"><b>5 000 ₽</b><span>пломба</span></div>
+      </article>
+
+      <article class="service service--6 reveal">
+        <span class="service__num">06</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="drop"><img data-src="img/o_drop.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Гигиена</h3>
+          <p class="service__text">Профессиональная чистка зубов<br>и отбеливание Opalescence.</p>
+        </div>
+        <div class="price"><b>5 700 ₽</b><span>гигиена</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ До и после ============ -->
+  <!-- Фото «до/после» — временные, замените на реальные работы клиники (img/*_before.webp, img/*_after.webp) -->
+  <section class="section container" id="cases">
+    <div class="section__head section__head--center-y">
+      <div>
+        <span class="label reveal">До и после</span>
+        <h2 class="h2 reveal">Как меняется<br><span class="muted">улыбка</span></h2>
+      </div>
+      <div class="tabs reveal" role="tablist" id="caseTabs">
+        <span class="tabs__bg" aria-hidden="true"></span>
+        <button class="tabs__btn is-active" role="tab" data-case="0">Коронки</button>
+        <button class="tabs__btn" role="tab" data-case="1">Комплексно</button>
+      </div>
+    </div>
+
+    <div class="cases reveal">
+      <div class="compare" id="compare" style="--pos:50%">
+        <img class="compare__img compare__after" id="imgAfter" src="img/wh_after.webp" alt="После лечения" width="685" height="460" loading="lazy" decoding="async">
+        <img class="compare__img compare__before" id="imgBefore" src="img/wh_before.webp" alt="До лечения" width="685" height="460" loading="lazy" decoding="async">
+        <span class="compare__line"></span>
+        <button class="compare__handle" aria-label="Сдвинуть разделитель">
+          <svg width="18" height="14" viewBox="0 0 18 14"><path d="M6 1 1 7l5 6M12 1l5 6-5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <span class="tag tag--light compare__tag-l">До</span>
+        <span class="tag tag--dark compare__tag-r">После</span>
+      </div>
+
+      <div class="case" id="caseCard">
+        <span class="chip">кейс</span>
+        <div class="obj3d case__obj" data-shape="veneer" id="caseObj"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="case__content" id="caseContent">
+          <h3 class="case__title" id="caseTitle">Лечение и коронки</h3>
+          <p class="case__text" id="caseText">Сначала вылечили зубы, затем доктор Иванов А.&nbsp;А. установил коронки — и предложил более бюджетную альтернативу.</p>
+        </div>
+        <div class="case__stats">
+          <div class="stat"><span id="lbl1">Работа</span><b id="stVisits">Лечение</b></div>
+          <div class="stat"><span id="lbl2">Итог</span><b id="stTerm">Коронки</b></div>
+          <div class="stat"><span id="lbl3">Врач</span><b id="stPrice">Иванов А.&nbsp;А.</b></div>
+        </div>
+        <div class="case__quote">
+          <p id="caseQuote">«Цена приятно удивила, по сравнению с другими клиниками»</p>
+          <span id="caseAuthor">Пациентка, отзыв на Яндекс Картах</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Клиника (фото — карточка клиники на Яндекс Картах) ============ -->
+  <section class="section container" id="clinic">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Клиника</span>
+        <h2 class="h2 reveal">Спокойная атмосфера<br><span class="muted">и детский уголок</span></h2>
+      </div>
+      <p class="lead reveal">Новороссийск, Московская ул., 3. Пациенты пишут: «В клинике чисто, уютно, есть детский уголок».</p>
+    </div>
+
+    <div class="gallery reveal">
+      <figure class="gallery__item gallery__item--big">
+        <img src="img/sd_reception.webp" alt="Ресепшен стоматологии Стайл Дент" width="600" height="800" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Ресепшен</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="img/sd_lounge.webp" alt="Зона ожидания" width="600" height="800" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Зона ожидания</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="img/sd_cabinet.webp" alt="Стоматологический кабинет" width="510" height="800" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Кабинет</figcaption>
+      </figure>
+      <figure class="gallery__item gallery__item--wide-m">
+        <img src="img/sd_plants.webp" alt="Интерьер клиники" width="600" height="800" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Интерьер</figcaption>
+      </figure>
+      <div class="gallery__facts">
+        <div><b>4,7</b><span>44 оценки на Яндекс Картах</span></div>
+        <div><b>пн–сб</b><span>с 9:00 до 20:00</span></div>
+        <div><b>500 ₽</b><span>консультация</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Врачи (имена — из отзывов и материалов клиники на Яндекс Картах) ============ -->
+  <!-- Фото врачей нет — стоят монограммы. Замените: <img src="img/doctor-....webp"> внутри .doctor__photo -->
+  <section class="section container" id="doctors">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Врачи</span>
+        <h2 class="h2 reveal">Доктора,<br><span class="muted">которым доверяют</span></h2>
+      </div>
+      <p class="lead reveal">Пациенты пишут: «Терпеть не могу ходить к стоматологам, но в этом месте такие специалисты, что к ним идёшь без проблем».</p>
+    </div>
+
+    <div class="doctors">
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#e6ddf7;--g2:#5b3a9a">
+          <span class="doctor__mono">АИ</span>
+          <div class="doctor__bar"><span>Лечение и протезирование</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Иванов Антон Андреевич</h3>
+        <p class="doctor__role">Стоматолог · лечение, коронки, сложные случаи</p>
+      </article>
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#d6efc9;--g2:#6fbf4f">
+          <span class="doctor__mono">ИА</span>
+          <div class="doctor__bar"><span>Лечение и гигиена</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Ашпарян Ирина Юрьевна</h3>
+        <p class="doctor__role">Стоматолог-терапевт</p>
+      </article>
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#f1cde0;--g2:#d99abd">
+          <span class="doctor__mono">ЭЭ</span>
+          <div class="doctor__bar"><span>Детям и взрослым</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Эльмаз Эюповна</h3>
+        <p class="doctor__role">Стоматолог · лечение зубов у детей, чистка</p>
+      </article>
+      <!-- Карточка по специальности — впишите имя врача -->
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#c4ebe5;--g2:#80c7bc">
+          <svg class="doctor__icon" viewBox="0 0 48 52" aria-hidden="true"><path d="M8 13C7 6 12 2.5 18 3.2c3.3.4 4.6 2 6 2s2.7-1.6 6-2C36 2.5 41 6 40 13c-.7 5-3.2 8.2-3.8 14-.7 7.3-1.6 20.5-5.6 21.6-3 .8-3.8-9.6-6.6-9.6s-3.6 10.4-6.6 9.6c-4-1.1-4.9-14.3-5.6-21.6C11.2 21.2 8.7 18 8 13Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+          <div class="doctor__bar"><span>Проблемы ВНЧС</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Гнатолог</h3>
+        <p class="doctor__role">Осмотр гнатолога, сплинт-терапия, каппы</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ Первый визит ============ -->
+  <section class="section container visit" id="visit">
+    <div class="visit__media reveal">
+      <img src="img/sd_cabinet.webp" alt="Кабинет стоматологии Стайл Дент" width="510" height="800" loading="lazy" decoding="async">
+      <span class="tag tag--light visit__tag"><i class="dot"></i>Московская, 3</span>
+      <div class="visit__price">
+        <b>500 ₽</b>
+        <span>консультация стоматолога и составление плана лечения</span>
+      </div>
+    </div>
+    <div class="visit__content">
+      <span class="label reveal">Первый визит</span>
+      <h2 class="h2 reveal">Сначала план и цена,<br><span class="muted">потом лечение</span></h2>
+      <ol class="steps" id="steps">
+        <li class="step">
+          <span class="step__num">01</span>
+          <h3>Звонок или заявка</h3>
+          <p>Приём по предварительной записи — пн–сб с 9:00 до 20:00. Накануне напомним о визите.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">02</span>
+          <h3>Консультация</h3>
+          <p>Врач осмотрит зубы и подробно расскажет обо всех нюансах.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">03</span>
+          <h3>План и стоимость</h3>
+          <p>Составим план лечения и предложим варианты — в том числе более бюджетные.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">04</span>
+          <h3>Лечение без боли</h3>
+          <p>Современные методы и анестезия — пациенты пишут, что всё проходит безболезненно.</p>
+        </li>
+        <li class="step step--cta">
+          <span class="step__num">05</span>
+          <div class="step-cta">
+            <h3>Ваш шаг — запись на приём</h3>
+            <p>Оставьте заявку или позвоните — подберём врача и удобное время.</p>
+            <div class="step-cta__actions">
+              <a href="#booking" class="btn btn--blue btn--lg">Записаться <i class="arr"></i></a>
+              <a href="tel:+79002620708" class="btn btn--ghost btn--lg">
+                <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                +7 (900) 262-07-08
+              </a>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ Отзывы (короткие цитаты с Яндекс Карт) ============ -->
+  <section class="section reviews" id="reviews">
+    <div class="container reviews__head">
+      <span class="label reveal">Отзывы</span>
+      <h2 class="h2 reveal">Что говорят<br><span class="muted">пациенты</span></h2>
+      <a class="rating reveal" href="https://yandex.ru/maps/org/stayl_dent/56596420801/reviews/" target="_blank" rel="noopener">
+        <b>4,7</b><span class="rating__stars">★★★★★</span><span>44 оценки на Яндекс Картах</span><i class="arr"></i>
+      </a>
+    </div>
+    <div class="marquee reveal">
+      <div class="marquee__track" data-dir="left">
+        <figure class="review"><blockquote>Чуткое отношение к пациентам и ювелирное мастерство в работе!</blockquote><figcaption><i class="ava" style="--c1:#d9cdf3;--c2:#5b3a9a">Т</i><b>Татьяна</b> · Антон Андреевич</figcaption></figure>
+        <figure class="review"><blockquote>Лечение и протезирование всегда качественное и безболезненное.</blockquote><figcaption><i class="ava" style="--c1:#c8ebb8;--c2:#4ea62e">Е</i><b>Елена</b> · протезирование</figcaption></figure>
+        <figure class="review"><blockquote>Врачи внимательные, профессионально подходят к лечению и всё подробно объясняют.</blockquote><figcaption><i class="ava" style="--c1:#a5e0e6;--c2:#6ec0cc">Е</i><b>Елена</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Случай у меня сложный, никто не хотел браться, а Антон Андреевич рискнул.</blockquote><figcaption><i class="ava" style="--c1:#f0c6f0;--c2:#d39ae0">Л</i><b>Людмила</b> · сложный случай</figcaption></figure>
+        <figure class="review"><blockquote>Высокий профессионализм врачей и приятная обстановка.</blockquote><figcaption><i class="ava" style="--c1:#fbd0d6;--c2:#f0a2ae">Д</i><b>Дмитрий</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Всё прошло чётко, современно и абсолютно безболезненно.</blockquote><figcaption><i class="ava" style="--c1:#bfe3c9;--c2:#7cc495">А</i><b>Антон</b> · семейная стоматология</figcaption></figure>
+      </div>
+      <div class="marquee__track" data-dir="right">
+        <figure class="review"><blockquote>Разболелся зуб, позвонил в стоматологию — приняли сразу!</blockquote><figcaption><i class="ava" style="--c1:#a9d3f3;--c2:#6fa8dd">С</i><b>Сергей</b> · удаление</figcaption></figure>
+        <figure class="review"><blockquote>В клинике чисто, уютно, есть детский уголок.</blockquote><figcaption><i class="ava" style="--c1:#d2b8f5;--c2:#a083e6">К</i><b>Кристина</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Ребёнку 10 лет, только к ней соглашается идти.</blockquote><figcaption><i class="ava" style="--c1:#b5ebc2;--c2:#73cc8c">Н</i><b>Наталья</b> · Эльмаз Эюповна</figcaption></figure>
+        <figure class="review"><blockquote>Приходим в клинику всей семьёй. Персонал всегда вежлив и приветлив.</blockquote><figcaption><i class="ava" style="--c1:#fbe0b8;--c2:#f0b875">М</i><b>Марго</b> · вся семья</figcaption></figure>
+        <figure class="review"><blockquote>Удобно, что напоминают о приёме.</blockquote><figcaption><i class="ava" style="--c1:#c6d0f7;--c2:#8d9de6">Ю</i><b>Юлия</b> · сервис</figcaption></figure>
+        <figure class="review"><blockquote>Очень внимательные профессионалы! Рекомендую.</blockquote><figcaption><i class="ava" style="--c1:#f5c2d6;--c2:#e08aae">И</i><b>Ирина</b> · лечение</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Запись ============ -->
+  <section class="section container" id="booking">
+    <div class="cta reveal">
+      <div class="cta__left">
+        <span class="chip">запись</span>
+        <h2 class="cta__title">Запишитесь<br>на приём<br>к стоматологу</h2>
+        <p class="cta__text">Оставьте телефон — администратор перезвонит в рабочее время и подберёт удобный день.</p>
+      </div>
+      <div class="obj3d cta__tooth" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+      <form class="form" id="form" novalidate>
+        <label class="field">
+          <span>Имя</span>
+          <input type="text" name="name" placeholder="Как к вам обращаться" autocomplete="name" required>
+        </label>
+        <label class="field">
+          <span>Телефон</span>
+          <input type="tel" name="phone" id="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required>
+        </label>
+        <div class="field field--select select" id="topic">
+          <span class="field__label" id="topicLabel">Что беспокоит</span>
+          <button type="button" class="select__btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="topicLabel">
+            <span class="select__value">Болит зуб</span>
+            <svg class="field__chev" width="12" height="8" viewBox="0 0 12 8"><path d="m1 1.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <ul class="select__list" role="listbox" aria-labelledby="topicLabel">
+            <li class="select__opt" role="option" aria-selected="true">Болит зуб</li>
+            <li class="select__opt" role="option" aria-selected="false">Нужно удалить зуб</li>
+            <li class="select__opt" role="option" aria-selected="false">Имплантация</li>
+            <li class="select__opt" role="option" aria-selected="false">Коронки и протезы</li>
+            <li class="select__opt" role="option" aria-selected="false">Виниры и реставрация</li>
+            <li class="select__opt" role="option" aria-selected="false">Гигиена и отбеливание</li>
+            <li class="select__opt" role="option" aria-selected="false">Ребёнку</li>
+            <li class="select__opt" role="option" aria-selected="false">Боль в челюсти (ВНЧС)</li>
+            <li class="select__opt" role="option" aria-selected="false">Пока не знаю, нужен осмотр</li>
+          </ul>
+          <input type="hidden" name="topic" value="Болит зуб">
+        </div>
+        <label class="consent">
+          <input type="checkbox" name="consent" id="consent" required>
+          <span class="consent__box" aria-hidden="true"></span>
+          <span class="consent__text">Даю согласие на обработку персональных данных и соглашаюсь с <a href="privacy.html" target="_blank">политикой конфиденциальности</a></span>
+        </label>
+        <button type="submit" class="btn btn--white btn--block">Записаться <i class="arr"></i></button>
+        <p class="form__ok" id="formOk">Спасибо! Администратор скоро перезвонит.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ============ Подвал ============ -->
+<footer class="footer container">
+  <div class="footer__cols">
+    <div><span>Адрес</span><p>Новороссийск,<br>Московская ул., 3 · <a href="https://yandex.ru/maps/org/stayl_dent/56596420801/" target="_blank" rel="noopener">маршрут ↗</a></p></div>
+    <div><span>Часы</span><p>пн–сб 09:00–20:00<br>вс — выходной</p></div>
+    <div><span>Связь</span><p><a href="tel:+79002620708">+7 (900) 262-07-08</a><br><a href="https://wa.me/79002620708" target="_blank" rel="noopener">WhatsApp</a> · <a href="#booking">Записаться</a></p></div>
+    <div><span>Разделы</span><p><a href="#services">Услуги</a> · <a href="#clinic">Клиника</a><br><a href="#doctors">Врачи</a> · <a href="#reviews">Отзывы</a></p></div>
+  </div>
+  <div class="footer__ticker" aria-hidden="true">
+    <div class="footer__track">
+      <span class="footer__item"><svg class="footer__mark footer__mark--sd" viewBox="0 0 64 48"><path d="M22 31C17.5 24 16 14.5 20.5 9.5c3.8-4.2 8.6-3 11.5-.6 2.9-2.4 7.7-3.6 11.5.6 4.5 5 3 14.5-1.5 21.5" fill="none" stroke="#5b3a9a" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 34.5c9-9.5 35-13 58-7.2-19.5-2.6-41.5-.6-53 9.6Z" fill="#4ea62e"/><path d="M9 41.5c15 5.5 38 3.6 50-7.4-10.5 11.6-35.5 15-50 7.4Z" fill="#5b3a9a"/></svg><span class="footer__word"><b>Style <em>Dent</em></b><i>СТОМАТОЛОГИЯ В НОВОРОССИЙСКЕ</i></span></span>
+      <span class="footer__item"><svg class="footer__mark footer__mark--sd" viewBox="0 0 64 48"><path d="M22 31C17.5 24 16 14.5 20.5 9.5c3.8-4.2 8.6-3 11.5-.6 2.9-2.4 7.7-3.6 11.5.6 4.5 5 3 14.5-1.5 21.5" fill="none" stroke="#5b3a9a" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 34.5c9-9.5 35-13 58-7.2-19.5-2.6-41.5-.6-53 9.6Z" fill="#4ea62e"/><path d="M9 41.5c15 5.5 38 3.6 50-7.4-10.5 11.6-35.5 15-50 7.4Z" fill="#5b3a9a"/></svg><span class="footer__word"><b>Style <em>Dent</em></b><i>СТОМАТОЛОГИЯ В НОВОРОССИЙСКЕ</i></span></span>
+      <span class="footer__item"><svg class="footer__mark footer__mark--sd" viewBox="0 0 64 48"><path d="M22 31C17.5 24 16 14.5 20.5 9.5c3.8-4.2 8.6-3 11.5-.6 2.9-2.4 7.7-3.6 11.5.6 4.5 5 3 14.5-1.5 21.5" fill="none" stroke="#5b3a9a" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 34.5c9-9.5 35-13 58-7.2-19.5-2.6-41.5-.6-53 9.6Z" fill="#4ea62e"/><path d="M9 41.5c15 5.5 38 3.6 50-7.4-10.5 11.6-35.5 15-50 7.4Z" fill="#5b3a9a"/></svg><span class="footer__word"><b>Style <em>Dent</em></b><i>СТОМАТОЛОГИЯ В НОВОРОССИЙСКЕ</i></span></span>
+    </div>
+  </div>
+  <p class="footer__warn">Имеются противопоказания. Необходима консультация специалиста</p>
+  <div class="footer__bottom">
+    <span>© 2026 «Стайл Дент», стоматология в Новороссийске</span>
+    <nav class="footer__legal" aria-label="Документы">
+      <a href="privacy.html">Политика конфиденциальности</a>
+      <a href="offer.html">Публичная оферта</a>
+      <a href="cookies.html">Cookie</a>
+    </nav>
+    <a class="dev-link" href="https://t.me/vladimir_nvrs" target="_blank" rel="noopener">
+      <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2l-11 6.9-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3z"/></svg>
+      Разработчик
+    </a>
+  </div>
+</footer>
+
+<script src="common.js"></script>
+<script src="script.js"></script>
+<script type="module" src="opal3d.js"></script>
+</body>
+</html>
