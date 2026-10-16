@@ -2091,3 +2091,5 @@ a, button, label, summary { -webkit-tap-highlight-color: transparent; }
 }
 @media (max-width: 360px) { .logo__text--sd small { display: none; } }
 @media (max-width: 340px) { .logo__mark--sd { width: 26px; height: 20px; } .logo__text--sd { font-size: 14.5px; } }
+/* курсив с градиентом: запас по краям, чтобы наклон букв не обрезался */
+.theme-brand .footer__item b { padding: 0 .14em; margin: 0 -.14em; }
